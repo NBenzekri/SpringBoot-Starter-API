@@ -51,7 +51,7 @@ public class SwaggerConfig extends WebSecurityConfigurerAdapter {
 
   private ApiInfo apiInfo() {
     return new ApiInfoBuilder()
-      .title("NourBenz Spring Boot API")
+      .title("NouriBenz Spring Boot API Starter")
       .description("JavaInUse API reference for developers")
       .version("1.0")
       .build();
