@@ -21,6 +21,6 @@ jobs:
     - name: compile the project
       run: mvn compile
     - name: packaging the project
-      run: jmvn clean package -Dmaven.test.skip=true
+      run: mvn clean package -Dmaven.test.skip=true
     - name: run the project
       run: java -jar ./target/service.jar
